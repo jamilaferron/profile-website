@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jamila Ferron - Profile</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #ffe4e1; /* light pink background */
+        margin: 0;
+        padding: 0;
+        color: #2c3e50;
+      }
+      h1 {
+        text-align: center;
+        color: #ff1493; /* deep pink */
+        margin-top: 20px;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+      }
+      p {
+        text-align: center;
+      }
+      ul,
+      ol {
+        margin: 20px auto;
+        padding: 0;
+        width: 50%;
+        text-align: left;
+      }
+      ul {
+        list-style-type: disc;
+      }
+      ol {
+        list-style-type: decimal;
+      }
+      h3 {
+        color: #ff1493; /* deep pink */
+        text-align: left;
+        padding-left: 20px;
+      }
+      table {
+        margin: 20px auto;
+        width: 80%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+        border: 1px solid #ccc;
+      }
+      th {
+        background-color: #ff1493; /* deep pink */
+        color: white;
+      }
+      .skills p {
+        margin: 0;
+        padding-left: 20px;
+      }
+      form {
+        margin: 20px auto;
+        width: 80%;
+        background-color: #ffe4e1;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .contact-form div {
+        margin-bottom: 10px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      input[type="text"],
+      input[type="email"] {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      input[type="submit"] {
+        background-color: #ff1493; /* deep pink */
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #ff69b4; /* lighter pink on hover */
+      }
+      nav {
+        background-color: #ff1493; /* deep pink */
+        padding: 10px 0;
+      }
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 599px;
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        margin-right: 20px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 5px 10px;
+      }
+      nav ul li a:hover {
+        background-color: #ff69b4;
+        border-radius: 4px;
+      }
+      #experience h3 {
+        text-align: center;
+      }
+      #skills h3 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <h1>Jamila Ferron</h1>
+      <img
+        src="images/profile_picture.png"
+        alt="profile picture"
+        height="170"
+      />
+      <p>
+        <em>
+          Software Engineer
+          <a
+            href="https://www.linkedin.com/in/jamila-ferron-6491938a/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </em>
+      </p>
+      <p>
+        I am an aspiring Software Engineer currently studying AI Driven Software
+        Engineering at Skills City.
+      </p>
+    </section>
+
+    <hr />
+
+    <section id="about">
+      <h3>Subjects</h3>
+      <ul>
+        <li>Principles of Programming (Python)</li>
+        <li>Web Development (HTML/CSS)</li>
+      </ul>
+
+      <h3>Tech Stack</h3>
+      <ol>
+        <li>Python</li>
+        <li>HTML/CSS</li>
+        <li>JavaScript</li>
+      </ol>
+    </section>
+
+    <section id="experience">
+      <h3>Training</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Dates</th>
+            <th>Training</th>
+            <th>Company</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sep 2024 - Present</td>
+            <td>AI Driven Software Engineering</td>
+            <td>Skills City</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Work Experience</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Dates</th>
+            <th>Work</th>
+            <th>Company</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Feb 2021 - Jan 2024</td>
+            <td>Full-Stack Developer</td>
+            <td>Play Sports Network</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="skills">
+      <h3>Skills</h3>
+      <div class="skills">
+        <p>Next.js ★★★★★</p>
+        <p>Django ★★★★</p>
+        <p>MySQL ★★</p>
+        <p>MongoDB ★★★★</p>
+      </div>
+    </section>
+
+    <hr />
+
+    <section id="contact">
+      <form action="" method="get" class="contact-form">
+        <h3>Contact Me</h3>
+        <div class="contact-form">
+          <label for="name">Enter your name: </label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div class="contact-form">
+          <label for="email">Enter your email: </label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div class="contact-form">
+          <label for="message">Enter your message: </label>
+          <input type="text" name="message" id="message" required />
+        </div>
+        <div class="contact-form">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
